@@ -47,4 +47,8 @@ body {
   .float-right {
     float: none;
   }
+
+  .text-lead {
+    font-size: 25px;
+  }
 }
