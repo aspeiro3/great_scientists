@@ -1,0 +1,50 @@
+body {
+  background: url("../images/unnamed.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.filling {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.img {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border: 1px solid #ae9b54;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 250px;
+}
+
+.item {
+  margin: 15px auto;
+  max-width: 960px;
+}
+
+@media (max-width: 960px) {
+  .img {
+    display:block;
+    margin:0 auto;
+    margin-top: 20px;
+    width: 70vw;
+  }
+
+  .float-left {
+    float: none;
+  }
+
+  .float-right {
+    float: none;
+  }
+}
